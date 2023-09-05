@@ -39,7 +39,7 @@ public class LibraryMain {
         }
 
         assert library.find("어린왕자");
-        assert library.find("엄지공주");
+        assert !library.find("엄지공주");
         
         library.delete("백설공주");
         
