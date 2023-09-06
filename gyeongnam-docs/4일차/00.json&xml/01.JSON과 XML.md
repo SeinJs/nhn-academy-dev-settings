@@ -1,0 +1,45 @@
+# JSON과 XML
+
+## 공통점
+
+* `데이터를 저장하고 전달하기 위해 고안되었습니다.`
+* `기계뿐만 아니라 사람도 쉽게 읽을 수 있습니다.`
+* `계층적인 데이터 구조를 가집니다.`
+* 다양한 프로그래밍 언어에 의해 파싱될 수 있습니다.
+* XMLHttpRequest 객체를 이용하여 서버로부터 데이터를 전송받을 수 있습니다
+
+## E`X`tensible `M`arkup `L`anguage
+
+### XML sample
+
+``` xml
+<member>
+    <name>마르코</name>
+    <id>marco<id>
+    <age>31</age>
+    <weight>70</weight>
+</member>
+```
+
+### 참고
+
+* MDN <https://developer.mozilla.org/ko/docs/Web/XML/XML_introduction>
+* CDATASection : <https://developer.mozilla.org/en-US/docs/Web/API/CDATASection>
+
+## `J`ava`S`cript `O`bject `N`otation
+
+### JSON sample
+
+```json
+{
+    "name": "마르코",
+    "id": "웰시코기",
+    "age": 31,
+    "weight": 70
+}
+```
+
+### 참고
+
+* JSON 소개 <https://www.w3schools.com/js/js_json_intro.asp>
+* JSON 기본구조 <http://www.tcpschool.com/json/json_basic_structure>
